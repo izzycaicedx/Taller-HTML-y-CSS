@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller de HTML y CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="encabezado">
+        <nav class="barra-navegacion">
+            <div class="logo">MyLogo</div>
+            <ul class="enlaces-navegacion">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contenedor-principal">
+        
+        <section class="seccion-articulos">
+    <article class="tarjeta">
+        <img src="images.jpg" alt="Artículo 1" class="imagen-articulo">
+        <h3>Article Title</h3>
+        <p>Article content goes here. This is a sample article content.</p>
+    </article>
+
+    <article class="tarjeta">
+        <img src="images (1).jpg" alt="Artículo 2" class="imagen-articulo">
+        <h3>Article Title</h3>
+        <p>Article content goes here. This is a sample article content.</p>
+    </article>
+    </section>
+
+        <section class="seccion-formulario">
+            <h2>Contact Form</h2>
+            <form class="formulario">
+                <div class="formulario-nombre">
+                    <label>Name:</label>
+                    <input type="text">
+                </div>
+
+                <div class="formulario-correo">
+                    <label>Email:</label>
+                    <input type="email">
+                </div>
+
+                <div class="formulario-mensaje">
+                    <label>Message:</label>
+                    <textarea></textarea>
+                </div>
+
+                <button type="submit" class="boton-enviar">Submit</button>
+            </form>
+        </section>
+
+        <section class="seccion-tabla">
+            <h2>Student Scores</h2>
+            <table class="tabla-notas">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>HTML</th>
+                        <th>CSS</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>80</td>
+                        <td>90</td>
+                        <td>170</td>
+                    </tr>
+                    <tr>
+                        <td>Jane</td>
+                        <td>85</td>
+                        <td>95</td>
+                        <td>180</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" class="derecha"><strong>Total</strong></td>
+                        <td><strong>350</strong></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+    </main>
+
+    <footer class="pie-pagina">
+        <p>Contact us at: info@example.com</p>
+    </footer>
+
+</body>
+</html>

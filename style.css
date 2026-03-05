@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.encabezado {
+    background-color: #333;
+    color: white;
+    padding: 15px 50px;
+}
+
+.barra-navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.enlaces-navegacion {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.enlaces-navegacion a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.contenedor-principal {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.seccion-articulos {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.tarjeta {
+    border: 1px solid #ddd;
+    padding: 15px;
+    flex: 1;
+}
+
+.imagen-articulo {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.seccion-formulario, .seccion-tabla {
+    margin-top: 40px;
+}
+
+.seccion-formulario h2, .seccion-tabla h2 {
+    margin-bottom: 15px;
+}
+
+.formulario-nombre, .formulario-correo, .formulario-mensaje {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+.boton-enviar {
+    padding: 10px 25px;
+    background-color: #efefef;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.tabla-notas {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-notas th, .tabla-notas td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.tabla-notas thead {
+    background-color: #f8f8f8;
+}
+
+.derecha {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.pie-pagina {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+}
